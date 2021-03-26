@@ -2,7 +2,7 @@
 Kotlin Wrapper for Axios
 
 ## About
-This wrapper - originally written by @ralfstuckert - simplifies the use of Axios within Kotlin/JS projects.
+This wrapper - originally written by [@ralfstuckert](https://github.com/ralfstuckert/kotlin-react-sample/blob/master/src/axios/Axios.kt) - simplifies the use of Axios within Kotlin/JS projects.
 This GitHub project serves to make the Axios wrapper available as "AxiosKt" via Maven and Gradle for easy integration.
 
 My experience with Axios is limited at the moment and I welcome anyone who wants to contribute to this project!
