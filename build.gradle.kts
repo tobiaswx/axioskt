@@ -15,16 +15,16 @@ publishing {
         pom {
             name.set("AxiosKt")
             description.set("Kotlin Wrapper for Axios HTTP Client")
-            url.set("https://github.com/twiese99/AxiosKt")
+            url.set("https://github.com/twiese99/axioskt")
 
             licenses {
                 license {
                     name.set("MIT")
-                    url.set("https://github.com/twiese99/AxiosKt/blob/main/LICENSE")
+                    url.set("https://github.com/twiese99/axioskt/blob/main/LICENSE")
                 }
             }
             scm {
-                url.set("https://github.com/twiese99/AxiosKt")
+                url.set("https://github.com/twiese99/axioskt")
             }
         }
     }
