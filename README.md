@@ -10,6 +10,27 @@ So don't be afraid to fork the project and open issues or pull requests.
 
 ## Usage
 
+### Setup
+**<ins>All artifacts created by the project can be viewed here:</ins>** [AxiosKt Packages](https://github.com/twiese99?tab=packages&repo_name=AxiosKt)
+#### Gradle
+```kotlin
+dependencies {
+    implementation("de.twiese99:axioskt:1.0.0")
+}
+```
+
+#### Maven
+Kontlin/JS projects do not run with Maven, but if anyone is interested anyway...
+```xml
+<dependency>
+  <groupId>de.twiese99</groupId>
+  <artifactId>axioskt</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+### Example Code
+
 ```kotlin
 fun main() {
   GlobalScope.launch {
