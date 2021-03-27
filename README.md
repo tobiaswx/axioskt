@@ -8,7 +8,7 @@
 
 ## About
 This wrapper - originally written by [@ralfstuckert](https://github.com/ralfstuckert/kotlin-react-sample/blob/master/src/axios/Axios.kt) - simplifies the use of Axios within Kotlin/JS projects.
-This GitHub project serves to make the Axios wrapper available as "AxiosKt" via Maven and Gradle for easy integration.
+This GitHub project serves to make the Axios wrapper available as "de.twiese99/axioskt" via Maven and Gradle for easy integration.
 
 My experience with Axios is limited at the moment and I welcome anyone who wants to contribute to this project!
 So don't be afraid to fork the project and open issues or pull requests.
@@ -16,7 +16,6 @@ So don't be afraid to fork the project and open issues or pull requests.
 ## Usage
 
 ### Setup
-**<ins>All artifacts created by the project can be viewed here:</ins>** [AxiosKt Packages](https://github.com/twiese99?tab=packages&repo_name=AxiosKt)
 #### Gradle
 ```kotlin
 repositories {
@@ -25,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation("de.twiese99:axioskt:1.0.0")
+    implementation("de.twiese99:axioskt:1.0.1")
 }
 ```
 
@@ -44,7 +43,7 @@ Kontlin/JS projects do not run with Maven, but if anyone is interested anyway...
     <dependency>
       <groupId>de.twiese99</groupId>
       <artifactId>axioskt</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </dependency>
   <dependencies>
 ...
