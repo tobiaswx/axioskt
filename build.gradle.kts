@@ -1,5 +1,5 @@
 plugins {
-    kotlin("js") version "1.4.31"
+    kotlin("multiplatform") version "1.4.31"
     id("maven-publish")
 }
 
@@ -30,11 +30,6 @@ publishing {
     }
 }
 
-dependencies {
-    implementation(npm("axios", "0.21.1"))
-    testImplementation(kotlin("test-js"))
-}
-
 kotlin {
     js(BOTH) {
         browser {
@@ -42,6 +37,18 @@ kotlin {
                 useKarma {
                     useChromeHeadless()
                 }
+            }
+        }
+    }
+    sourceSets {
+        val jsMain by getting {
+            dependencies {
+                implementation(npm("axios", "0.21.1"))
+            }
+        }
+        val jsTest by getting {
+            dependencies {
+                implementation(kotlin("test-js"))
             }
         }
     }
