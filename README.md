@@ -1,5 +1,10 @@
-# AxiosKt
-Kotlin Wrapper for Axios
+# AxiosKt - Kotlin Wrapper for Axios
+
+[![](https://jitpack.io/v/de.twiese99/axioskt.svg)](https://jitpack.io/#de.twiese99/axioskt)
+![GitHub](https://img.shields.io/github/license/twiese99/axioskt)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/twiese99/axioskt)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/twiese99/axioskt)
+![GitHub repo size](https://img.shields.io/github/repo-size/twiese99/axioskt)
 
 ## About
 This wrapper - originally written by [@ralfstuckert](https://github.com/ralfstuckert/kotlin-react-sample/blob/master/src/axios/Axios.kt) - simplifies the use of Axios within Kotlin/JS projects.
