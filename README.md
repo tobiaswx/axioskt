@@ -13,20 +13,37 @@ So don't be afraid to fork the project and open issues or pull requests.
 ### Setup
 **<ins>All artifacts created by the project can be viewed here:</ins>** [AxiosKt Packages](https://github.com/twiese99?tab=packages&repo_name=AxiosKt)
 #### Gradle
-```kotlin
+```diff
+repositories {
+    mavenCentral()
++    maven { url = uri("https://maven.pkg.github.com/twiese99/AxiosKt") }
+}
+
 dependencies {
-    implementation("de.twiese99:axioskt:1.0.0")
++    implementation("de.twiese99:axioskt:1.0.0")
 }
 ```
 
 #### Maven
 Kontlin/JS projects do not run with Maven, but if anyone is interested anyway...
 ```xml
-<dependency>
-  <groupId>de.twiese99</groupId>
-  <artifactId>axioskt</artifactId>
-  <version>1.0.0</version>
-</dependency>
+<project>
+...
+  <repositories>
+    <repository>
+      <id>axioskt</id>
+      <url>https://maven.pkg.github.com/twiese99/AxiosKt</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>de.twiese99</groupId>
+      <artifactId>axioskt</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  <dependencies>
+...
+</project>
 ```
 
 ### Example Code
