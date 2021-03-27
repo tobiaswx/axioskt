@@ -1,3 +1,3 @@
 
-rootProject.name = "AxiosKt"
+rootProject.name = "axioskt"
 
