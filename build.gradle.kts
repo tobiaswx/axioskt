@@ -44,7 +44,9 @@ kotlin {
     sourceSets {
         val jsMain by getting {
             dependencies {
-                implementation(npm("axios", "0.21.1"))
+                implementation(npm("axios", "0.22.0"))
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0")
             }
         }
         val jsTest by getting {
