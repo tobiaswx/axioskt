@@ -65,6 +65,8 @@ fun main() {
 I personally prefer to use axios together with kotlinx-serialization - especially in multiplatform projects where data classes are defined in the common.
 For example, if you want to query a json api and have the result automatically converted to a kotlin object, you can write functions like this one:
 
+> *Since version 1.1.0 the two corresponding functions are integrated in the project. Please keep in mind, however, that currently no exception handling is performed on the part of the library.*
+
 ```kotlin
 import kotlinx.coroutines.await
 import kotlinx.serialization.ExperimentalSerializationApi
