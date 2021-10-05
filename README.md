@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation("de.twiese99:axioskt:1.0.1")
+    implementation("de.twiese99:axioskt:1.1.0")
 }
 ```
 
@@ -43,9 +43,9 @@ Kontlin/JS projects do not run with Maven, but if anyone is interested anyway...
     <dependency>
       <groupId>de.twiese99</groupId>
       <artifactId>axioskt</artifactId>
-      <version>1.0.1</version>
+      <version>1.1.0</version>
     </dependency>
-  <dependencies>
+  </dependencies>
 ...
 </project>
 ```
